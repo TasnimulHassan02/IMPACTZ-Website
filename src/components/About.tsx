@@ -11,10 +11,10 @@ const About: React.FC = () => {
             <div className="inline-flex items-center px-4 py-2 bg-brand-light-blue rounded-full text-brand-blue text-sm font-semibold">
               <Target size={16} className="mr-2" /> Our Mission & Vision
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold">Why Choose LifeTech Solutions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Why Choose IMPACTZ</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-brand-blue to-brand-purple"></div>
             <p className="text-gray-600 text-lg">
-              At LifeTech, we're committed to developing technology that makes a meaningful impact.
+              At IMPACTZ, we're committed to developing technology that makes a meaningful impact.
               Our innovative solutions are designed to solve complex problems and create new possibilities.
             </p>
             

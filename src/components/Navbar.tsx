@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="#home" className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent">
-            LifeTech
+            IMPACTZ
           </a>
         </div>
 

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent mb-4">
-              LifeTech
+              IMPACTZ
             </h3>
             <p className="text-gray-400 mb-4">
               Making life better with technology. We build cutting-edge tech solutions that improve lives,
@@ -104,14 +104,14 @@ const Footer: React.FC = () => {
                 <p>Phone: (123) 456-7890</p>
               </li>
               <li>
-                <p>Email: contact@lifetech.com</p>
+                <p>Email: contact@impactz.com</p>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="py-6 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} LifeTech Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} IMPACTZ. All rights reserved.</p>
         </div>
       </div>
     </footer>
