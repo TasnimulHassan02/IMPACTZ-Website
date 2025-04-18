@@ -9,9 +9,15 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/logo.png" 
+                src="./logo.png" 
                 alt="IMPACTZ Logo" 
                 className="h-10 mr-3"
+                onError={(e) => {
+                  console.error('Logo failed to load in footer');
+                  const target = e.target as HTMLImageElement;
+                  target.onerror = null;
+                  target.src = 'https://placehold.co/200x80?text=IMPACTZ';
+                }}
               />
             </div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent mb-4">

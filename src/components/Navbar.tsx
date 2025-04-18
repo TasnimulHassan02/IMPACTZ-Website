@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -36,9 +37,15 @@ const Navbar: React.FC = () => {
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
             <img 
-              src="/logo.png" 
+              src="./logo.png" 
               alt="IMPACTZ Logo" 
               className="h-10 mr-3"
+              onError={(e) => {
+                console.error('Logo failed to load');
+                const target = e.target as HTMLImageElement;
+                target.onerror = null;
+                target.src = 'https://placehold.co/200x80?text=IMPACTZ';
+              }}
             />
           </a>
         </div>
