@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             const target = e.target as HTMLImageElement;
             target.onerror = null;
             target.src = 'https://placehold.co/200x80?text=IMPACTZ';
-          }} src="/lovable-uploads/11379d69-aae1-435e-80d6-f386453a2854.png" />
+          }} src="/lovable-uploads/5c1632c3-f408-471a-b7ce-897ed67e53f5.png" />
           </a>
         </div>
 
