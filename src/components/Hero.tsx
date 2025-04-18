@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             
             <p className="text-lg text-gray-600 max-w-xl">
               Our mission is to build cutting-edge tech solutions that solve real world problems,
-              drive innovation, improve lives and create new possibilities."
+              drive innovation, improve lives and create new possibilities.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
