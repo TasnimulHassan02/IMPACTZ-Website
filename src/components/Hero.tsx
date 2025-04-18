@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Zap size={20} className="text-brand-blue" />
-                  <p className="text-gray-700 font-mono text-sm">Pushing technology forward</p>
+                  <p className="text-gray-700 font-mono text-sm">Pushing human race forward</p>
                 </div>
                 <div className="h-40 bg-gradient-to-br from-brand-light-blue to-brand-light-purple rounded-lg flex items-center justify-center">
                   <div className="text-center">
