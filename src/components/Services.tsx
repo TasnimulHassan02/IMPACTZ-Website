@@ -66,8 +66,8 @@ const Services: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-brand-blue to-brand-purple mx-auto mb-6"></div>
           <p className="text-gray-600 text-lg">
-            We build cutting-edge technology solutions that improve lives, push innovation, 
-            and create new possibilities for our clients.
+           We build cutting-edge tech solutions that solve real world problems,
+            drive innovation, improve lives and create new possibilities for our clients.
           </p>
         </div>
 
