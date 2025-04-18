@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -35,8 +34,12 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#home" className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent">
-            IMPACTZ
+          <a href="#home" className="flex items-center">
+            <img 
+              src="/logo.png" 
+              alt="IMPACTZ Logo" 
+              className="h-10 mr-3"
+            />
           </a>
         </div>
 
