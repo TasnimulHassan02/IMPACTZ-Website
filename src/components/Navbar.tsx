@@ -32,12 +32,12 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
-            <img alt="IMPACTZ Logo" className="h-10 mr-3" onError={e => {
+            <img alt="IMPACTZ Logo" onError={e => {
             console.error('Logo failed to load');
             const target = e.target as HTMLImageElement;
             target.onerror = null;
             target.src = 'https://placehold.co/200x80?text=IMPACTZ';
-          }} src="/lovable-uploads/5c1632c3-f408-471a-b7ce-897ed67e53f5.png" />
+          }} src="/lovable-uploads/5c1632c3-f408-471a-b7ce-897ed67e53f5.png" className="h-10 mr-3" />
           </a>
         </div>
 
