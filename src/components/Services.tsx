@@ -56,7 +56,7 @@ const Services: React.FC = () => {
       icon: <Lock size={24} />,
       title: "Secure Systems",
       description: "Robust and secure system architecture ensuring your data and operations are protected."
-    }
+    },
     {
       icon: <Code size={24} />,
       title: "Custom Tools",
