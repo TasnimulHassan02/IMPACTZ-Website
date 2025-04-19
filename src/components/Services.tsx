@@ -43,19 +43,19 @@ const Services: React.FC = () => {
       description: "Tailored software systems that streamline operations and enhance productivity for your organization."
     },
     {
-      icon: <Code size={24} />,
-      title: "Custom Tools",
-      description: "Specialized tools and utilities designed to solve specific problems and automate workflows."
+      icon: <Mike size={24} />,
+      title: "Digital Marketing",
+      description: "Elevate your online presence with our strategic digital marketing solutions, merging proven tactics and the latest trends to navigate your brand toward substantial growth."
     },
     {
-      icon: <Lightbulb size={24} />,
-      title: "Innovation Consulting",
-      description: "Strategic guidance on leveraging technology to innovate and stay ahead in your industry."
+      icon: <Technology size={24} />,
+      title: "Digital Transformation",
+      description: "Help you modernize operations, integrate new technologies, and drive innovation to stay ahead in a digital-first world."
     },
     {
-      icon: <Lock size={24} />,
-      title: "Secure Systems",
-      description: "Robust and secure system architecture ensuring your data and operations are protected."
+      icon: <AI size={24} />,
+      title: "Data Science & AI Solutions",
+      description: "Turn your data into key insights and automate decisions with smart AI systems — making your business faster, smarter, and more efficient."
     },
     {
       icon: <Code size={24} />,
