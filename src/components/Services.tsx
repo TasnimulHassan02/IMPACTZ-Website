@@ -12,7 +12,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description
 }) => {
   return <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all group">
-      <CardContent className="p-6 hover:bg-brand-light-blue bg-slate-50">
+      <CardContent className="p-6 hover:bg-brand-light-blue bg-white">
         <div className="bg-brand-light-purple group-hover:bg-brand-purple transition-colors w-12 h-12 rounded-lg flex items-center justify-center mb-4">
           <div className="text-brand-purple group-hover:text-white transition-colors">
             {icon}
