@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               solve real world problems, drive innovation, improve lives & create new possibilities.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/company/impactz2025/?viewAsMember=true" target="_blank" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
+              <a href="https://www.linkedin.com/company/impactz2025/?viewAsMember=true" target="_blank" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full py-[14px] px-[14px]">
                 <Linkedin size={18} />
               </a>
             </div>
