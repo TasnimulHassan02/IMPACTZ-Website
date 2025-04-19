@@ -45,7 +45,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Impact-Driven</h3>
-                  <p className="text-gray-600">Our solutions are designed to improve lives, help your business and create new possibilities..</p>
+                  <p className="text-gray-600">Our solutions are designed to improve lives, help businesses & create new possibilities.</p>
                 </div>
               </div>
             </div>
