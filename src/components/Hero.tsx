@@ -1,11 +1,8 @@
-
 import React from "react";
 import { ArrowRight, Code, Star, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Hero: React.FC = () => {
-  return (
-    <section id="home" className="pt-28 pb-20 bg-hero-pattern">
+  return <section id="home" className="pt-28 pb-20 bg-hero-pattern">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-8 animate-fade-in">
@@ -30,9 +27,7 @@ const Hero: React.FC = () => {
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <a
-              href="#services"
-              className="border border-brand-blue text-brand-blue hover:bg-brand-light-blue px-6 py-6 rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200">
+              <a href="#services" className="border border-brand-blue text-brand-blue hover:bg-brand-light-blue rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200 py-[10px] px-[10px]">
               Our Services
               </a>
 
@@ -67,8 +62,6 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
