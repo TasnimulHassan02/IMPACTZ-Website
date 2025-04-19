@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Linkedin } from "lucide-react";
 
 const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -48,13 +48,13 @@ const Contact: React.FC = () => {
               
               <div className="mt-12">
                 <div className="flex space-x-4">
+                  <a href="#" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full">
+                    <Mail className="w-5 h-5 text-white" />
+                  </a>
                   <a href="https://www.linkedin.com/company/impactz2025/?viewAsMember=true" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full">
                     <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
                     </svg>
-                  </a>
-                  <a href="#" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full">
-                    <Mail className="w-5 h-5 text-white" />
                   </a>
                 </div>
               </div>
