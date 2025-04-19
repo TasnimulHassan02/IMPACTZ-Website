@@ -57,6 +57,21 @@ const Services: React.FC = () => {
       title: "Secure Systems",
       description: "Robust and secure system architecture ensuring your data and operations are protected."
     }
+    {
+      icon: <Code size={24} />,
+      title: "Custom Tools",
+      description: "Specialized tools and utilities designed to solve specific problems and automate workflows."
+    },
+    {
+      icon: <Lightbulb size={24} />,
+      title: "Innovation Consulting",
+      description: "Strategic guidance on leveraging technology to innovate and stay ahead in your industry."
+    },
+    {
+      icon: <Lock size={24} />,
+      title: "Secure Systems",
+      description: "Robust and secure system architecture ensuring your data and operations are protected."
+    }
   ];
 
   return (
