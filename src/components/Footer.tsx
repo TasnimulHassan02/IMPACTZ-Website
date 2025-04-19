@@ -33,9 +33,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Mobile Applications
-                </a>
+                
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white flex items-center">
@@ -58,9 +56,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Custom Tools
-                </a>
+                
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white flex items-center">
@@ -68,9 +64,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Secure Systems
-                </a>
+                
               </li>
             </ul>
           </div>
