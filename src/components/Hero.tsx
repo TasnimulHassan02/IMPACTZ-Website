@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <a href="#services" className="border border-brand-blue text-brand-blue bg-white hover:bg-brand-light-blue rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200 py-[10px] my-0 mx-0 font-semibold text-sm px-[30px]">Our Services</a>
+              <a href="#services" className="border border-brand-blue text-brand-blue bg-white hover:bg-brand-light-blue rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200 py-[10px] my-0 mx-0 font-semibold text-sm px-[26px]">Our Services</a>
 
             </div>
           </div>
