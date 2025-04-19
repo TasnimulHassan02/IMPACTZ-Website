@@ -3,16 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send, Linkedin } from "lucide-react";
-
 const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Form submitted");
     // Here you would typically handle form submission
   };
-
-  return (
-    <section id="contact" className="py-20 bg-white">
+  return <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
@@ -48,7 +45,7 @@ const Contact: React.FC = () => {
               
               <div className="mt-12">
                 <div className="flex space-x-4">
-                  <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJqXxmRxwJJGRhbddhVKVxqQdqHnGhjHLXntnFfrKhcbxjxlkrzzTSlGnFnDnXXbzzMSZGB" target="_blank" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full">
+                  <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJqXxmRxwJJGRhbddhVKVxqQdqHnGhjHLXntnFfrKhcbxjxlkrzzTSlGnFnDnXXbzzMSZGB" target="_blank" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full mx-0 my-0 px-[15px] py-[15px]">
                     <Mail className="w-5 h-5 text-white" />
                   </a>
                   <a href="https://www.linkedin.com/company/impactz2025/?viewAsMember=true" target="_blank" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full">
@@ -68,22 +65,13 @@ const Contact: React.FC = () => {
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                     Name
                   </label>
-                  <Input
-                    id="name"
-                    placeholder="Your name"
-                    required
-                  />
+                  <Input id="name" placeholder="Your name" required />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                     Email
                   </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="your@email.com"
-                    required
-                  />
+                  <Input id="email" type="email" placeholder="your@email.com" required />
                 </div>
               </div>
               
@@ -91,30 +79,17 @@ const Contact: React.FC = () => {
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                   Subject
                 </label>
-                <Input
-                  id="subject"
-                  placeholder="How can we help you?"
-                  required
-                />
+                <Input id="subject" placeholder="How can we help you?" required />
               </div>
               
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message
                 </label>
-                <Textarea
-                  id="message"
-                  placeholder="Your message"
-                  rows={5}
-                  required
-                  className="resize-none"
-                />
+                <Textarea id="message" placeholder="Your message" rows={5} required className="resize-none" />
               </div>
               
-              <Button 
-                type="submit"
-                className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white w-full flex items-center justify-center gap-2"
-              >
+              <Button type="submit" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white w-full flex items-center justify-center gap-2">
                 Send Message
                 <Send size={16} />
               </Button>
@@ -122,8 +97,6 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
