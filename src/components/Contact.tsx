@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
               </div>
               
               <div className="mt-12">
-                <div className="flex space-x-4 mx-0 px-[130px]">
+                <div className="flex space-x-4 mx-0 px-0">
                   <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJqXxmRxwJJGRhbddhVKVxqQdqHnGhjHLXntnFfrKhcbxjxlkrzzTSlGnFnDnXXbzzMSZGB" target="_blank" className="bg-white/20 hover:bg-white/40 transition-colors p-2 rounded-full mx-0 my-0 px-[15px] py-[15px]">
                     <Mail className="w-5 h-5 text-white" />
                   </a>
