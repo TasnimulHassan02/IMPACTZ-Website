@@ -30,9 +30,12 @@ const Hero: React.FC = () => {
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <Button variant="outline" className="border-brand-blue text-brand-blue hover:bg-brand-light-blue px-6 py-6 rounded-lg">
-                Our Services
-              </Button>
+              <a
+              href="#services"
+              className="border border-brand-blue text-brand-blue hover:bg-brand-light-blue px-6 py-6 rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200">
+              Our Services
+              </a>
+
             </div>
           </div>
           
