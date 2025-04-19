@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Code, Database, Globe, Lightbulb, Smartphone, Lock } from "lucide-react";
+import { Code, Database, Globe, Lightbulb, Smartphone, Lock, Megaphone, Cog } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface ServiceCardProps {
@@ -43,17 +43,17 @@ const Services: React.FC = () => {
       description: "Tailored software systems that streamline operations and enhance productivity for your organization."
     },
     {
-      icon: <Mike size={24} />,
+      icon: <Megaphone size={24} />,
       title: "Digital Marketing",
       description: "Elevate your online presence with our strategic digital marketing solutions, merging proven tactics and the latest trends to navigate your brand toward substantial growth."
     },
     {
-      icon: <Technology size={24} />,
+      icon: <Cog size={24} />,
       title: "Digital Transformation",
       description: "Help you modernize operations, integrate new technologies, and drive innovation to stay ahead in a digital-first world."
     },
     {
-      icon: <AI size={24} />,
+      icon: <Database size={24} />,
       title: "Data Science & AI Solutions",
       description: "Turn your data into key insights and automate decisions with smart AI systems — making your business faster, smarter, and more efficient."
     },
