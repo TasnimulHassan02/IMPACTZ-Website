@@ -48,11 +48,11 @@ const Services: React.FC = () => {
   }, {
     icon: <Cog size={24} />,
     title: "Digital Transformation",
-    description: "Modernize operations, integrate new technologies and drive innovation to stay ahead in a digital-first world."
+    description: "Modernize operations, integrate new technologies & drive innovation to stay ahead in a digital-first world."
   }, {
     icon: <Bot size={24} />,
     title: "Data Science & AI Solutions",
-    description: "Turn data into insights and automate decisions with smart AI systems, making your business faster, smarter and efficient."
+    description: "Turn data into insights & automate with smart AI systems, making your business faster, smarter & efficient."
   }, {
     icon: <Code size={24} />,
     title: "Custom Tools",
