@@ -1,24 +1,17 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin, ChevronRight } from "lucide-react";
-
 const Footer: React.FC = () => {
-  return (
-    <footer className="bg-gray-900 text-white">
+  return <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4">
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <img 
-                src="./logo.png" 
-                alt="IMPACTZ Logo" 
-                className="h-10 mr-3"
-                onError={(e) => {
-                  console.error('Logo failed to load in footer');
-                  const target = e.target as HTMLImageElement;
-                  target.onerror = null;
-                  target.src = 'https://placehold.co/200x80?text=IMPACTZ';
-                }}
-              />
+              <img alt="IMPACTZ Logo" onError={e => {
+              console.error('Logo failed to load in footer');
+              const target = e.target as HTMLImageElement;
+              target.onerror = null;
+              target.src = 'https://placehold.co/200x80?text=IMPACTZ';
+            }} src="/lovable-uploads/06e0bc99-910c-4f31-9e34-2dd5e215d6c4.png" className="h-10 mr-3" />
             </div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent mb-4">
               IMPACTZ
@@ -126,8 +119,6 @@ const Footer: React.FC = () => {
           <p>&copy; {new Date().getFullYear()} IMPACTZ. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
