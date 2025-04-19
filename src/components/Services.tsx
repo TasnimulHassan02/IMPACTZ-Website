@@ -45,17 +45,17 @@ const Services: React.FC = () => {
     {
       icon: <Megaphone size={24} />,
       title: "Digital Marketing",
-      description: "Elevate your online presence with our strategic digital marketing solutions, merging proven tactics and the latest trends to navigate your brand toward substantial growth."
+      description: "Elevate your online presence with our strategic digital marketing solutions resulting in substantial growth."
     },
     {
       icon: <Cog size={24} />,
       title: "Digital Transformation",
-      description: "Help you modernize operations, integrate new technologies, and drive innovation to stay ahead in a digital-first world."
+      description: "Modernize operations, integrate new technologies and drive innovation to stay ahead in a digital-first world."
     },
     {
-      icon: <Database size={24} />,
+      icon: <Robot size={24} />,
       title: "Data Science & AI Solutions",
-      description: "Turn your data into key insights and automate decisions with smart AI systems — making your business faster, smarter, and more efficient."
+      description: "Turn data into insights and automate decisions with smart AI systems, making your business faster, smarter and efficient."
     },
     {
       icon: <Code size={24} />,
