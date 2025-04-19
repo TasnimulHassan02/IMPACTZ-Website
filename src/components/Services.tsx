@@ -100,7 +100,7 @@ const Services: React.FC = () => {
         <div className="mt-16 bg-brand-light-blue p-8 rounded-2xl border border-brand-blue/10">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-2xl font-semibold mb-3">Looking for custom solutions?</h3>
+              <h3 className="text-2xl font-semibold mb-3">Got any problem with your business? Looking for custom solutions?</h3>
               <p className="text-gray-600">
                 We specialize in building tailored technology solutions to address your specific challenges.
               </p>
