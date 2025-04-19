@@ -13,24 +13,12 @@ const Footer: React.FC = () => {
               target.src = 'https://placehold.co/200x80?text=IMPACTZ';
             }} src="/lovable-uploads/06e0bc99-910c-4f31-9e34-2dd5e215d6c4.png" className="h-10 mr-3" />
             </div>
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-purple bg-clip-text text-transparent mb-4">
-              IMPACTZ
-            </h3>
             <p className="text-gray-400 mb-4">
-              Making life better with technology. We build cutting-edge tech solutions that improve lives,
-              push innovation and create new possibilities.
+              Making life better with technology. We build cutting-edge tech solutions that 
+              solve real world problems, drive innovation, improve lives & create new possibilities.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
+              <a href="https://www.linkedin.com/company/impactz2025/?viewAsMember=true" target="_blank" className="bg-gray-800 hover:bg-brand-blue transition-colors p-2 rounded-full">
                 <Linkedin size={18} />
               </a>
             </div>
@@ -56,12 +44,32 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Digital Marketing
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Data Science & AI Solutions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Digital Transformation
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Custom Tools
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Innovation Consulting
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Secure Systems
                 </a>
               </li>
             </ul>
@@ -90,11 +98,6 @@ const Footer: React.FC = () => {
                   <ChevronRight size={16} className="mr-2" /> Contact
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Privacy Policy
-                </a>
-              </li>
             </ul>
           </div>
           
@@ -102,14 +105,14 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <p>123 Innovation Drive</p>
-                <p>Tech City, TC 12345</p>
+                <p>TA-107, Gulshan 1</p>
+                <p>Dhaka, Bangladesh</p>
               </li>
               <li>
-                <p>Phone: (123) 456-7890</p>
+                <p>Phone:+8801987660586</p>
               </li>
               <li>
-                <p>Email: contact@impactz.com</p>
+                <p>Email:impactz2025@gmail.com</p>
               </li>
             </ul>
           </div>
