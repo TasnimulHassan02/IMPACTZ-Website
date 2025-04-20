@@ -1,14 +1,49 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send, Linkedin } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
+
 const Contact: React.FC = () => {
-  const handleSubmit = (e: React.FormEvent) => {
+  const { toast } = useToast();
+  
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted");
-    // Here you would typically handle form submission
+    const formData = new FormData(e.currentTarget);
+    
+    try {
+      const { error } = await supabase
+        .from('Contract')
+        .insert({
+          Name: formData.get('name'),
+          Email: formData.get('email'),
+          Subject: formData.get('subject'),
+          Message: formData.get('message')
+        });
+
+      if (error) throw error;
+
+      toast({
+        title: "Success!",
+        description: "Your message has been sent successfully.",
+      });
+
+      // Reset form
+      (e.target as HTMLFormElement).reset();
+
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive"
+      });
+    }
   };
+
   return <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -65,13 +100,13 @@ const Contact: React.FC = () => {
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                     Name
                   </label>
-                  <Input id="name" placeholder="Your name" required />
+                  <Input id="name" name="name" placeholder="Your name" required />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="your@email.com" required />
+                  <Input id="email" name="email" type="email" placeholder="your@email.com" required />
                 </div>
               </div>
               
@@ -79,14 +114,21 @@ const Contact: React.FC = () => {
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                   Subject
                 </label>
-                <Input id="subject" placeholder="How can we help you?" required />
+                <Input id="subject" name="subject" placeholder="How can we help you?" required />
               </div>
               
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message
                 </label>
-                <Textarea id="message" placeholder="Your message" rows={5} required className="resize-none" />
+                <Textarea 
+                  id="message" 
+                  name="message" 
+                  placeholder="Your message" 
+                  rows={5} 
+                  required 
+                  className="resize-none" 
+                />
               </div>
               
               <Button type="submit" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white w-full flex items-center justify-center gap-2">
@@ -99,4 +141,5 @@ const Contact: React.FC = () => {
       </div>
     </section>;
 };
+
 export default Contact;
