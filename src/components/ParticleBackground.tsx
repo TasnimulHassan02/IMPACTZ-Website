@@ -21,7 +21,7 @@ const ParticleBackground = () => {
 
     const createParticles = () => {
       particles = [];
-      const numberOfParticles = 50;
+      const numberOfParticles = 30;
       
       for (let i = 0; i < numberOfParticles; i++) {
         particles.push({
