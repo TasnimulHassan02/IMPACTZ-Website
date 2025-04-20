@@ -18,15 +18,13 @@ const FloatingElements = () => {
           }}
         />
       ))}
-      <style>
-        {`
-          @keyframes float-0 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-50%, -60%) rotate(180deg); } }
-          @keyframes float-1 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-60%, -50%) rotate(-180deg); } }
-          @keyframes float-2 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-40%, -40%) rotate(90deg); } }
-          @keyframes float-3 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-60%, -40%) rotate(-90deg); } }
-          @keyframes float-4 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-40%, -60%) rotate(135deg); } }
-        `}
-      </style>
+      <style jsx>{`
+        @keyframes float-0 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-50%, -60%) rotate(180deg); } }
+        @keyframes float-1 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-60%, -50%) rotate(-180deg); } }
+        @keyframes float-2 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-40%, -40%) rotate(90deg); } }
+        @keyframes float-3 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-60%, -40%) rotate(-90deg); } }
+        @keyframes float-4 { 0%, 100% { transform: translate(-50%, -50%) rotate(0deg); } 50% { transform: translate(-40%, -60%) rotate(135deg); } }
+      `}</style>
     </div>
   );
 };
