@@ -1,5 +1,6 @@
+
 import React from "react";
-import { Code, Database, Globe, Lightbulb, Smartphone, Lock, Megaphone, Cog, Bot, Brain } from "lucide-react";
+import { Code, Database, Globe, Lightbulb, Smartphone, Lock, Megaphone, Cog, Bot, Brain, Cpu } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 
 const Services: React.FC = () => {
@@ -12,7 +13,7 @@ const Services: React.FC = () => {
     title: "Innovation Lab",
     description: "We explore new possibilities through rapid prototyping, R&D, and emerging technologies."
   }, {
-    icon: <Technology size={24} />,
+    icon: <Cpu size={24} />,
     title: "Digital Platforms",
     description: "From web to AI systems, we build scalable and user-focused platforms for modern needs."
   }, {
