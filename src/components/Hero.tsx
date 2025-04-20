@@ -1,9 +1,16 @@
 import React from "react";
 import { ArrowRight, Code, Star, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ParticleBackground from "./ParticleBackground";
+import FloatingElements from "./FloatingElements";
+
 const Hero: React.FC = () => {
-  return <section id="home" className="pt-28 pb-20 bg-hero-pattern">
-      <div className="container mx-auto px-4">
+  return (
+    <section id="home" className="relative pt-28 pb-20 overflow-hidden">
+      <ParticleBackground />
+      <FloatingElements />
+      
+      <div className="container mx-auto px-4 relative">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-8 animate-fade-in">
             <div className="inline-flex items-center px-4 py-2 bg-brand-light-purple rounded-full text-brand-purple text-sm font-semibold">
@@ -60,6 +67,8 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
