@@ -21,7 +21,7 @@ const ParticleBackground = () => {
 
     const createParticles = () => {
       particles = [];
-      const numberOfParticles = 30;
+      const numberOfParticles = 40;
       
       for (let i = 0; i < numberOfParticles; i++) {
         particles.push({
@@ -60,7 +60,7 @@ const ParticleBackground = () => {
             ctx.beginPath();
             ctx.moveTo(p1.x, p1.y);
             ctx.lineTo(p2.x, p2.y);
-            ctx.strokeStyle = `rgba(58, 116, 226, ${0.3 * (1 - distance / 100)})`;
+            ctx.strokeStyle = `rgba(58, 116, 226, ${0.4 * (1 - distance / 100)})`;
             ctx.stroke();
           }
         });
