@@ -12,7 +12,7 @@ const Services: React.FC = () => {
     title: "Innovation Lab",
     description: "We explore new possibilities through rapid prototyping, R&D, and emerging technologies."
   }, {
-    icon: <Code size={24} />,
+    icon: <Technology size={24} />,
     title: "Digital Platforms",
     description: "From web to AI systems, we build scalable and user-focused platforms for modern needs."
   }, {
