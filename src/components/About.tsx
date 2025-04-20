@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckCircle, Target, Compass, BarChart4 } from "lucide-react";
 const About: React.FC = () => {
-  return <section id="about" className="py-20 bg-gray-50">
+  return <section id="about" className="py-20 bg-gray-50 my-[40px]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6 animate-fade-in">
