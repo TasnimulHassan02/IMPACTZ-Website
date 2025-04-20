@@ -28,30 +28,30 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Web Development
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Problem Solving
                 </a>
               </li>
               <li>
                 
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Software Solutions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Digital Marketing
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Data Science & AI Solutions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Digital Transformation
                 </a>
               </li>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                 
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white flex items-center">
+                <a href="#services" className="text-gray-400 hover:text-white flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Innovation Consulting
                 </a>
               </li>
