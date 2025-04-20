@@ -49,12 +49,12 @@ const About: React.FC = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up mx-0 my-0 px-[25px]">
               <div className="bg-brand-light-purple w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <Target className="text-brand-purple" size={24} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
-              <p className="text-gray-600 mx-0 my-0 px-0 font-normal text-center">IMPACTZ is a future-forward tech company dedicated to solving complex problems through innovative digital solutions. We believe in creating technologies that empower people, enhance experiences, and shape a better world.</p>
+              <p className="text-gray-600">IMPACTZ is a future-forward tech company dedicated to solving complex problems through innovative digital solutions. We believe in creating technologies that empower people, enhance experiences, and shape a better world.</p>
             </div>
             
             
