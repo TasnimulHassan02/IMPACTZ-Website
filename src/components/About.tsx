@@ -48,7 +48,7 @@ const About: React.FC = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up mx-0 my-0 px-[25px]">
               <div className="bg-brand-light-purple w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <Target className="text-brand-purple" size={24} />
