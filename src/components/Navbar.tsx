@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
           {navItems.map(item => <a key={item.label} href={item.href} className="text-gray-700 hover:text-brand-blue transition-colors">
               {item.label}
             </a>)}
-          <Button className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white">
+          <Button href: "#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white">
             Get Started
           </Button>
         </div>
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
             {navItems.map(item => <a key={item.label} href={item.href} className="text-gray-700 hover:text-brand-blue transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
                 {item.label}
               </a>)}
-            <Button className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white w-full">
+            <Button href: "#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white w-full">
               Get Started
             </Button>
           </div>
