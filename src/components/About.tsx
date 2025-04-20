@@ -1,10 +1,7 @@
-
 import React from "react";
 import { CheckCircle, Target, Compass, BarChart4 } from "lucide-react";
-
 const About: React.FC = () => {
-  return (
-    <section id="about" className="py-20 bg-gray-50">
+  return <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6 animate-fade-in">
@@ -52,23 +49,19 @@ const About: React.FC = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up mx-0 my-0 px-[25px]">
               <div className="bg-brand-light-purple w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <Target className="text-brand-purple" size={24} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
-              <p className="text-gray-600">Making life better with technology</p>
+              <p className="text-gray-600">IMPACTZ is a future-forward tech company dedicated to solving complex problems through innovative digital solutions. We believe in creating technologies that empower people, enhance experiences, and shape a better world.</p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 transform hover:-translate-y-2 transition-transform animate-slide-up" style={{ animationDelay: '0.1s' }}>
-              <div className="bg-brand-light-blue w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <Compass className="text-brand-blue" size={24} />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Our Mission</h3>
-              <p className="text-gray-600">Build cutting-edge tech solutions that solve real world problems, drive innovation, improve lives & create new possibilities.</p>
-            </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 col-span-1 md:col-span-2 transform hover:-translate-y-2 transition-transform animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 col-span-1 md:col-span-2 transform hover:-translate-y-2 transition-transform animate-slide-up" style={{
+            animationDelay: '0.2s'
+          }}>
               <div className="bg-gradient-to-r from-brand-light-blue to-brand-light-purple w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <BarChart4 className="text-brand-purple" size={24} />
               </div>
@@ -90,8 +83,6 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
