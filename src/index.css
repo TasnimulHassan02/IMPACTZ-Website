@@ -97,6 +97,10 @@
 
   body {
     @apply bg-background text-foreground;
+    /* Hide the watermark badge */
+iframe[src*="lovable"] + div[style*="position: fixed"] {
+  display: none !important;
+}
   }
 }
 
@@ -126,10 +130,7 @@
     transform: translateY(-20px);
   }
 }
-/* Hide the watermark badge */
-iframe[src*="lovable"] + div[style*="position: fixed"] {
-  display: none !important;
-}
+
 
 @keyframes pulse-soft {
   0%, 100% {
