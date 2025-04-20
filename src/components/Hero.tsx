@@ -3,10 +3,8 @@ import { ArrowRight, Code, Star, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ParticleBackground from "./ParticleBackground";
 import FloatingElements from "./FloatingElements";
-
 const Hero: React.FC = () => {
-  return (
-    <section id="home" className="relative pt-28 pb-20 overflow-hidden">
+  return <section id="home" className="relative pt-28 pb-20 overflow-hidden">
       <ParticleBackground />
       <FloatingElements />
       
@@ -34,7 +32,7 @@ const Hero: React.FC = () => {
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <a href="#services" className="border border-brand-blue text-brand-blue bg-white hover:bg-brand-light-blue rounded-lg text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200 py-[10px] my-0 mx-0 font-semibold text-sm px-[26px]">Our Services</a>
+              <a href="#services" className="border border-brand-blue text-brand-blue bg-white hover:bg-brand-light-blue rounded-lg border-width: 10 px text-center flex items-center justify-center sm:w-auto w-full transition-colors duration-200 py-[10px] my-0 mx-0 font-semibold text-sm px-[26px]">Our Services</a>
 
             </div>
           </div>
@@ -67,8 +65,6 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
