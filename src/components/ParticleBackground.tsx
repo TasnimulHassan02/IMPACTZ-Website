@@ -40,7 +40,7 @@ const ParticleBackground = () => {
       particles.forEach(particle => {
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(58, 116, 226, 0.9)';
+        ctx.fillStyle = 'rgba(58, 116, 226, 0.4)';
         ctx.fill();
         
         particle.x += particle.dx;
