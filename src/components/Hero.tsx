@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight, Code, Star, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -29,7 +28,7 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white px-6 py-6 rounded-lg flex items-center">
+              <a href="#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white rounded-lg flex items-center py-[12px] px-[23px]">
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </a>
