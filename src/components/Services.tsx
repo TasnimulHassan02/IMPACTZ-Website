@@ -1,10 +1,8 @@
-
 import React from "react";
 import { Code, Database, Globe, Lightbulb, Smartphone, Lock, Megaphone, Cog, Bot, Brain, Cpu } from "lucide-react";
 import ServiceCard from "./ServiceCard";
-
 const Services: React.FC = () => {
-  const services = [ {
+  const services = [{
     icon: <Brain size={24} />,
     title: "Problem Solving",
     description: "We tackle real-world issues with creative, practical, and impactful technology solutions."
@@ -53,7 +51,6 @@ const Services: React.FC = () => {
     title: "Secure Systems",
     description: "Robust and secure system architecture ensuring your data and operations are protected."
   }];
-  
   return <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -72,7 +69,7 @@ const Services: React.FC = () => {
         <div className="mt-16 bg-brand-light-blue p-8 rounded-2xl border border-brand-blue/10 mt-[150px]">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-2xl font-semibold mb-3">Got any problem with your business? Don't know whats wrong? Looking for custom solutions?</h3>
+              <h3 className="text-2xl font-semibold mb-3">Got any problem with your business? Looking for custom solutions?</h3>
               <p className="text-gray-600">
                 We specialize in building tailored technology solutions to address your specific challenges.
               </p>
@@ -87,5 +84,4 @@ const Services: React.FC = () => {
       </div>
     </section>;
 };
-
 export default Services;
