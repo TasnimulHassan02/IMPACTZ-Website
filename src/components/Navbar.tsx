@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
     href: "#contact"
   }];
   return <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
-      <div className="container flex justify-between items-center mx-0 px-[10px]">
+      <div className="container flex justify-between items-center mx-0 px-0">
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
             <img alt="IMPACTZ Logo" onError={e => {
