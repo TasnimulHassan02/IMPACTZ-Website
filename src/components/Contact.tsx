@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,12 +16,12 @@ const Contact: React.FC = () => {
     try {
       const { error } = await supabase
         .from('Contract')
-        .insert([{
+        .insert({
           Name: formData.get('name'),
           Email: formData.get('email'),
           Subject: formData.get('subject'),
           Message: formData.get('message')
-        }]);
+        });
 
       if (error) throw error;
 
