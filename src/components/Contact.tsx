@@ -18,10 +18,10 @@ const Contact: React.FC = () => {
       const { error } = await supabase
         .from('Contract')
         .insert({
-          Name: formData.get('name'),
-          Email: formData.get('email'),
-          Subject: formData.get('subject'),
-          Message: formData.get('message')
+          name: formData.get('name'),
+          email: formData.get('email'),
+          subject: formData.get('subject'),
+          message: formData.get('message')
         });
 
       if (error) throw error;
