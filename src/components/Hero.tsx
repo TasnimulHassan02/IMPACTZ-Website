@@ -11,9 +11,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 relative">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-8 animate-fade-in">
-            <div className="inline-flex items-center px-4 py-2 bg-brand-light-purple rounded-full text-brand-purple text-sm font-semibold">
-              <Star size={16} className="mr-2" /> Innovative Tech Solutions
-            </div>
+            
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Making life better <br />
