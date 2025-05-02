@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white font-bold rounded-lg flex items-center py-[12px] px-[107px]">
+              <a href="#contact" className="bg-gradient-to-r from-brand-blue to-brand-purple hover:from-brand-purple hover:to-brand-blue text-white font-bold rounded-lg flex items-center py-[12px] px-[26px]">
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </a>
